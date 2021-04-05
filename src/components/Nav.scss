@@ -16,11 +16,18 @@
       text-align: center;
       @include centered();
       a {
-        height: 60%;
-        padding: 5px 10px;
+        //height: 60%;
+        padding: 10px;
         color: rgb(229, 210, 246);
         font-weight: bold;
         font-size: 1.2em;
+        transition: 0.3s all ease;
+        &:hover {
+          color: #d6dee1;
+          transition: 0.3s all ease;
+          background: white;
+          color: #02394a;
+        }
       }
     }
   }

@@ -9,7 +9,7 @@ const Nav = () => {
           <a href="#">Contact</a>
         </li>
         <li>
-          <a href="#">Projects</a>
+          <a href="#works">Projects</a>
         </li>
       </ul>
     </div>
