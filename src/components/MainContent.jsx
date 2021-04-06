@@ -95,16 +95,19 @@ const MainContent = () => {
           </div>
           <div className="item">
             <img src="https://via.placeholder.com/150" alt="" />
-            <p className="itemPara">
+            <div className="itemPara">
               <h2>
                 Memory Card Game with React.Js {""}
                 <GiCardPickup />
               </h2>
               <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              iusto delectus tenetur deleniti dolorem quis illum recusandae
-              reiciendis, sint ab?
-            </p>
+              <p>
+                {" "}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                iusto delectus tenetur deleniti dolorem quis illum recusandae
+                reiciendis, sint ab?
+              </p>
+            </div>
             <ul>
               <li>
                 <a
@@ -124,16 +127,18 @@ const MainContent = () => {
           </div>
           <div className="item">
             <img src="https://via.placeholder.com/150" alt="" />
-            <p className="itemPara">
+            <div className="itemPara">
               <h2>
                 Kanye West Quote Generator {""}
                 <GiWesternHat />
               </h2>
               <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              iusto delectus tenetur deleniti dolorem quis illum recusandae
-              reiciendis, sint ab?
-            </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                iusto delectus tenetur deleniti dolorem quis illum recusandae
+                reiciendis, sint ab?
+              </p>
+            </div>
             <ul>
               <li>
                 <a
@@ -153,16 +158,18 @@ const MainContent = () => {
           </div>
           <div className="item">
             <img src="https://via.placeholder.com/150" alt="" />
-            <p className="itemPara">
+            <div className="itemPara">
               <h2>
                 Calculator with ReactJS {""}
                 <AiFillCalculator />
               </h2>
               <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              iusto delectus tenetur deleniti dolorem quis illum recusandae
-              reiciendis, sint ab?
-            </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                iusto delectus tenetur deleniti dolorem quis illum recusandae
+                reiciendis, sint ab?
+              </p>
+            </div>
             <ul>
               <li>
                 <a
