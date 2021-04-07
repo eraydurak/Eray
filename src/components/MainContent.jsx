@@ -18,16 +18,17 @@ import {
   SiWebpack,
 } from "react-icons/si";
 import { SiHtml5 } from "react-icons/si";
+import calculator from "./../img/calculator.png";
+import memorycard from "./../img/memorycard.png";
+import quotegen from "./../img/quotegen.png";
+import weatherapp from "./../img/weatherapp.png";
+import me from "./../img/MyPicture.png";
 
 const MainContent = () => {
   return (
     <div className="container">
       <div className="imgBox">
-        <img
-          className="myPic"
-          src="https://docs.kariyer.net/candidate/000/017/860/avatar/1786089620210330010456417.jpg?filesec=XdsV1VzBKiPzRwcAz5MUUtGVL3Ddi%2Bxw5uMChsU1iR7LyPGIgmJ7LmoQnraCP7pueZKhQ%2BtfwlogNuCGM6BcijdqWBBJqOOY!e!"
-          alt="alt"
-        />
+        <img className="myPic" src={me} alt="alt" />
       </div>
       <div className="paraDiv">
         <p className="headText">
@@ -69,7 +70,11 @@ const MainContent = () => {
         <h3 className="headingThree">My Works</h3>
         <div className="wrapper">
           <div className="item">
-            <img src="https://via.placeholder.com/150" alt="" />
+            <img
+              style={{ width: "150px", height: "150px" }}
+              src={weatherapp}
+              alt="memory-card-game"
+            />
             <div className="itemPara">
               <h2>
                 3-Day WeatherCast App with React {""}
@@ -88,13 +93,18 @@ const MainContent = () => {
                   target="_blank"
                   href="https://github.com/eraydurak/react-weather-app"
                 >
-                  Github Link
+                  Source
+                  <GoMarkGithub class="github-icon" />
                 </a>
               </li>
             </ul>
           </div>
           <div className="item">
-            <img src="https://via.placeholder.com/150" alt="" />
+            <img
+              style={{ width: "150px", height: "150px" }}
+              src={memorycard}
+              alt="memory-card-game"
+            />
             <div className="itemPara">
               <h2>
                 Memory Card Game with React.Js {""}
@@ -114,19 +124,23 @@ const MainContent = () => {
                   target="_blank"
                   href="https://github.com/eraydurak/memory-card-game"
                 >
-                  Github Link
+                  Source <GoMarkGithub class="github-icon" />
                 </a>
                 <a
                   target="_blank"
                   href="https://kodluyoruz-3-project-1-30c6nc0o9-eraydurak.vercel.app/"
                 >
-                  Demo Link
+                  Demo
                 </a>
               </li>
             </ul>
           </div>
           <div className="item">
-            <img src="https://via.placeholder.com/150" alt="" />
+            <img
+              style={{ width: "150px", height: "150px" }}
+              src={quotegen}
+              alt="quotegenerator"
+            />
             <div className="itemPara">
               <h2>
                 Kanye West Quote Generator {""}
@@ -145,19 +159,23 @@ const MainContent = () => {
                   target="_blank"
                   href="https://github.com/eraydurak/kanye-rest-quote-generator"
                 >
-                  Github Link
+                  Source <GoMarkGithub class="github-icon" />
                 </a>
                 <a
                   target="_blank"
                   href="https://kodluyoruz2odev-ggk6zs5c0-eraydurak.vercel.app/"
                 >
-                  Demo Link
+                  Demo
                 </a>
               </li>
             </ul>
           </div>
           <div className="item">
-            <img src="https://via.placeholder.com/150" alt="" />
+            <img
+              style={{ width: "150px", height: "150px" }}
+              src={calculator}
+              alt="calculator"
+            />
             <div className="itemPara">
               <h2>
                 Calculator with ReactJS {""}
@@ -176,7 +194,7 @@ const MainContent = () => {
                   target="_blank"
                   href="https://github.com/eraydurak/kanye-rest-quote-generator"
                 >
-                  Github Link
+                  Source <GoMarkGithub class="github-icon" />
                 </a>
               </li>
             </ul>
