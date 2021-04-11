@@ -30,6 +30,11 @@
         }
       }
     }
+    .contact {
+      &:hover .contact-container {
+        display: none;
+      }
+    }
   }
 }
 
