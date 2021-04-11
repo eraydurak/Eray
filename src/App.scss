@@ -18,3 +18,11 @@ html {
   //height: 100vh;
   background-color: #02394a;
 }
+
+body {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

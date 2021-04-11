@@ -31,6 +31,12 @@
       transition: 0.4s all ease-in-out;
       position: relative;
       overflow: hidden;
+      background: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 8px 32px 0 rgba(208, 208, 218, 0.199);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
       span {
         position: absolute;
         width: 100%;
@@ -43,6 +49,9 @@
         text-align: center;
         padding-top: 36px;
         transition: 0.4s all ease-in-out;
+        background: #02394a;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.445);
       }
       .icon-icon {
         font-size: 40px;
@@ -53,11 +62,12 @@
         transition: 0.4s all ease-in-out;
       }
       &:hover > span {
-        left: -300px;
+        left: 300px;
         transition: 0.4s all ease-in-out;
       }
       &:nth-of-type(odd):hover > span {
-        left: 300px;
+        left: -300px;
+        transition: 0.4s all ease-in-out;
       }
     }
   }

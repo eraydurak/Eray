@@ -12,21 +12,6 @@
   margin-bottom: 100px;
   padding: 20px 25px;
   padding-left: 50px;
-  &::-webkit-scrollbar {
-    width: 20px;
-  }
-  &::-webkit-scrollbar-track {
-    background-color: transparent;
-  }
-  &::-webkit-scrollbar-thumb {
-    background-color: #d6dee1;
-    border-radius: 20px;
-    border: 6px solid transparent;
-    background-clip: content-box;
-  }
-  &::-webkit-scrollbar-thumb:hover {
-    background-color: #a8bbbf;
-  }
   .imgBox {
     display: flex;
     align-items: center;
@@ -44,6 +29,7 @@
   .paraDiv {
     .headText {
       color: white;
+
       span {
         font-weight: bold;
       }
@@ -55,6 +41,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 15px 0;
+
     // max-width: 90%;
     .icon {
       font-size: 60px;
@@ -91,6 +78,14 @@
       margin-bottom: 20px;
       img {
         border-radius: 10px;
+        -webkit-filter: blur(1px) grayscale(100%);
+        filter: blur(1px) grayscale(100%);
+        transition: 0.4s all ease;
+        &:hover {
+          filter: none;
+          -webkit-filter: none;
+          transition: 0.4s all ease;
+        }
       }
       .itemPara {
         width: 60%;
