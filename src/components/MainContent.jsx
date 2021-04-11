@@ -23,6 +23,7 @@ import memorycard from "./../img/memorycard.png";
 import quotegen from "./../img/quotegen.png";
 import weatherapp from "./../img/weatherapp.png";
 import me from "./../img/MyPicture.png";
+import triwow from "./../img/triwow.png";
 
 const MainContent = () => {
   return (
@@ -72,6 +73,35 @@ const MainContent = () => {
           <div className="item">
             <img
               style={{ width: "150px", height: "150px" }}
+              src={triwow}
+              alt="triwow"
+            />
+            <div className="itemPara">
+              <h2>Triwow {""}</h2>
+              <br />
+              <p>
+                Built a quiz game with ReactJs. Inspired by Trivia Crack mobile
+                game and tried to adapt it to web browsers. Used
+                https://opentdb.com/api_category.php for question APIs. We used
+                many technologies in this project such as JavaScript, React,
+                Redux, SASS, React-router-dom, Firebase(Firestore). We will
+                create a database for questions/answers in the future.
+              </p>
+            </div>
+            <ul>
+              <li>
+                <a target="_blank" href="https://github.com/eraydurak/triwow">
+                  Source <GoMarkGithub class="github-icon" />
+                </a>
+                <a target="_blank" href="https://triwow.vercel.app/">
+                  Demo
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="item">
+            <img
+              style={{ width: "150px", height: "150px" }}
               src={weatherapp}
               alt="memory-card-game"
             />
@@ -82,9 +112,10 @@ const MainContent = () => {
               </h2>
               <br />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                iusto delectus tenetur deleniti dolorem quis illum recusandae
-                reiciendis, sint ab?
+                The project will show you 3-days weathercast. There is a input
+                area that you can search for your city. Used axios to get
+                weather apis. <br />
+                Techs in this project : React, SASS, JavaScript, Fetch API
               </p>
             </div>
             <ul>
@@ -113,9 +144,10 @@ const MainContent = () => {
               <br />
               <p>
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                iusto delectus tenetur deleniti dolorem quis illum recusandae
-                reiciendis, sint ab?
+                It is a memory card game. Choose 2 cards if they match then they
+                stay open. Otherwise they return back to their first states
+                which is close. <br />
+                Techs in this project: React, JavaScript, SASS
               </p>
             </div>
             <ul>
@@ -148,9 +180,9 @@ const MainContent = () => {
               </h2>
               <br />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                iusto delectus tenetur deleniti dolorem quis illum recusandae
-                reiciendis, sint ab?
+                This is my first try for fetching some API from certain
+                websites. <br />
+                It has HTML, CSS, Vanilla JavaScript in it. Not responsive yet.
               </p>
             </div>
             <ul>
@@ -183,9 +215,9 @@ const MainContent = () => {
               </h2>
               <br />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                iusto delectus tenetur deleniti dolorem quis illum recusandae
-                reiciendis, sint ab?
+                Simple calculator created with ReactJS. I did not use ant other
+                library like math.js. All the functions and operations written
+                by me. I used SASS and JavaScript mostly.
               </p>
             </div>
             <ul>
