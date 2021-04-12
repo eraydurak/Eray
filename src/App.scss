@@ -25,4 +25,13 @@ body {
   }
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+  position: relative;
+}
+
+.go-page-start {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  display: inline-block;
 }
