@@ -1,11 +1,11 @@
 import React from "react";
 import "./Main.scss";
-import { GoMarkGithub, GoStar } from "react-icons/go";
-import { GoArrowSmallRight } from "react-icons/go";
+import { GoMarkGithub } from "react-icons/go";
 import { GiCardPickup } from "react-icons/gi";
 import { GiWesternHat } from "react-icons/gi";
 import { WiCloudy } from "react-icons/wi";
 import { AiFillCalculator } from "react-icons/ai";
+import { FaArrowCircleUp } from "react-icons/fa";
 import {
   SiCss3,
   SiGit,
