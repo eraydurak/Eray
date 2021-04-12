@@ -42,7 +42,6 @@
         width: 100%;
         height: 100%;
         content: "";
-        background-color: black;
         border-radius: 10px;
         top: 0;
         left: 0;
@@ -77,9 +76,28 @@
   .contact-container {
     .contact-list {
       width: 370px;
-      grid-gap: 15px;
+      grid-gap: 30px;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
+      .link-icon {
+        height: 80px;
+        span {
+          top: 0;
+          left: 0;
+          content: "";
+          width: 310px;
+          height: 80px;
+          padding-top: 20px;
+        }
+        &:hover > span {
+          left: 310px;
+          transition: 0.4s all ease-in-out;
+        }
+        &:nth-of-type(odd):hover > span {
+          left: -310px;
+          transition: 0.4s all ease-in-out;
+        }
+      }
     }
   }
 }

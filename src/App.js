@@ -11,7 +11,7 @@ const App = () => {
       <MainContent />
       <Contact />
       <a className="go-page-start" href="#">
-        <FaArrowAltCircleUp />
+        <FaArrowAltCircleUp className="go-start-icon" />
       </a>
     </div>
   );
