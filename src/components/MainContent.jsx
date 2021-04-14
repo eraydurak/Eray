@@ -25,7 +25,7 @@ import weatherapp from "./../img/weatherapp.png";
 import me from "./../img/MyPicture.png";
 import triwow from "./../img/triwow.png";
 
-const MainContent = () => {
+const MainContent = ({ isActive }) => {
   return (
     <div className="container">
       <div className="imgBox">
