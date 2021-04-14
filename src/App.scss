@@ -11,15 +11,9 @@
   }
 }
 
-body,
-html {
-  font-family: "Source Code Pro", monospace;
-  width: 100%;
-  //height: 100vh;
-  background-color: #02394a;
-}
-
 body {
+  font-family: "Source Code Pro", monospace;
+  background-color: #02232d;
   &::-webkit-scrollbar {
     display: none;
   }
@@ -34,9 +28,114 @@ body {
   right: 20px;
   color: white;
   display: inline-block;
-
   .go-start-icon {
     width: 30px;
     height: auto;
+  }
+}
+
+.toggleBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  outline: 0;
+  border: 0;
+  padding: 8px;
+  background-color: aliceblue;
+  color: #02232d;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid white;
+  transition: 0.3s all ease-in-out;
+}
+
+.lightApp {
+  background-color: aliceblue;
+  color: black;
+  .container {
+    .imgBox {
+      .myPic {
+        transition: 0.3s all ease;
+      }
+    }
+    .headingThree {
+      color: black;
+      border-bottom: 4px solid #02394a;
+    }
+    .paraDiv {
+      .headText {
+        color: black;
+      }
+    }
+    .wrapper {
+      .item {
+        .itemPara {
+          color: black;
+        }
+        ul {
+          li {
+            a {
+              color: #02394a;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+    .icon-div {
+      .icon {
+        color: #02394a;
+        border-bottom: 3px solid #02394a;
+        border-radius: 2px;
+        &:hover {
+          background: #02394a;
+          color: white;
+        }
+      }
+    }
+  }
+  .navbar {
+    ul {
+      li {
+        a {
+          color: black;
+          &:hover {
+            background: black;
+            color: aliceblue;
+          }
+        }
+      }
+    }
+  }
+  .contact-container {
+    h3 {
+      color: black;
+    }
+  }
+  .go-page-start {
+    color: black;
+  }
+  .toggleBtn {
+    background-color: #02232d;
+    color: white;
+    border: 1px solid #02232d;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .toggleBtn {
+    transform: rotate(90deg);
+    top: 200px;
+    right: -20px;
+    position: fixed;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .toggleBtn {
+    transform: rotate(90deg);
+    top: 200px;
+    right: -20px;
+    position: fixed;
   }
 }
