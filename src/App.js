@@ -9,6 +9,7 @@ const App = () => {
   const [isActive, setActive] = useState('false');
   const handleToggle = () => {
     setActive(!isActive);
+    localStorage.setItem(isActive, 'theme selection')
   }
   return (
     <div className={isActive ? "App" : "lightApp"}>
