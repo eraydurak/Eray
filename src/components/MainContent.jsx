@@ -42,7 +42,7 @@ const MainContent = () => {
           HTML5, CSS3, SASS, JavaScript(ES6), ReactJS, Redux, Webpack, NPM, Git,
           Bootstrap, Restful API, Fetch API, Redux-Thunk, CSS-in-JS. <br />
           <br />
-          Currently improving Typescript.
+          Currently working with Typescript.
         </p>
         <p className="headText">
           <br />
@@ -79,7 +79,7 @@ const MainContent = () => {
             <div className="itemPara">
               <h2>Triwow {""}</h2>
               <br />
-              <p>
+              <p className="lightModPara">
                 Built a quiz game with ReactJs. Inspired by Trivia Crack mobile
                 game and tried to adapt it to web browsers. Used
                 https://opentdb.com/api_category.php for question APIs. We used
@@ -106,12 +106,12 @@ const MainContent = () => {
               alt="memory-card-game"
             />
             <div className="itemPara">
-              <h2>
+              <h2 className="lightModPara">
                 3-Day WeatherCast App with React {""}
                 <WiCloudy />
               </h2>
               <br />
-              <p>
+              <p className="lightModPara">
                 The project will show you 3-days weathercast. There is a input
                 area that you can search for your city. Used axios to get
                 weather apis. <br />
@@ -137,12 +137,12 @@ const MainContent = () => {
               alt="memory-card-game"
             />
             <div className="itemPara">
-              <h2>
+              <h2 className="lightModPara">
                 Memory Card Game with React.Js {""}
                 <GiCardPickup />
               </h2>
               <br />
-              <p>
+              <p className="lightModPara">
                 {" "}
                 It is a memory card game. Choose 2 cards if they match then they
                 stay open. Otherwise they return back to their first states
@@ -174,12 +174,12 @@ const MainContent = () => {
               alt="quotegenerator"
             />
             <div className="itemPara">
-              <h2>
+              <h2 className="lightModPara">
                 Kanye West Quote Generator {""}
                 <GiWesternHat />
               </h2>
               <br />
-              <p>
+              <p className="lightModPara">
                 This is my first try for fetching some API from certain
                 websites. <br />
                 It has HTML, CSS, Vanilla JavaScript in it. Not responsive yet.
@@ -209,12 +209,12 @@ const MainContent = () => {
               alt="calculator"
             />
             <div className="itemPara">
-              <h2>
+              <h2 className="lightModPara">
                 Calculator with ReactJS {""}
                 <AiFillCalculator />
               </h2>
               <br />
-              <p>
+              <p className="lightModPara">
                 Simple calculator created with ReactJS. I did not use ant other
                 library like math.js. All the functions and operations written
                 by me. I used SASS and JavaScript mostly.
