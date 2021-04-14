@@ -47,6 +47,15 @@ body {
   cursor: pointer;
   border: 1px solid white;
   transition: 0.3s all ease-in-out;
+  .crescent {
+    display: none;
+    visibility: hidden;
+  }
+  .sun {
+    display: block;
+    visibility: visible;
+    font-size: 22px;
+  }
 }
 
 .lightApp {
@@ -118,6 +127,16 @@ body {
     background-color: #02232d;
     color: white;
     border: 1px solid #02232d;
+    padding: 8px;
+    .crescent {
+      display: block;
+      visibility: visible;
+      font-size: 22px;
+    }
+    .sun {
+      display: none;
+      visibility: hidden;
+    }
   }
 }
 

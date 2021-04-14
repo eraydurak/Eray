@@ -4,6 +4,8 @@ import Nav from "./components/Nav";
 import MainContent from "./components/MainContent";
 import Contact from "./components/Contact";
 import { FaArrowAltCircleUp } from "react-icons/fa";
+import { FiSun } from "react-icons/fi";
+import { FaMoon } from "react-icons/fa";
 
 const App = () => {
   const [isActive, setActive] = useState('false');
@@ -19,7 +21,10 @@ const App = () => {
       <a className="go-page-start" href="#">
         <FaArrowAltCircleUp className="go-start-icon" />
       </a>
-      <button className="toggleBtn" onClick={handleToggle} >Switch Theme</button>
+      <button className="toggleBtn" onClick={handleToggle} >
+        <FiSun className="sun" />
+        <FaMoon className="crescent" />
+      </button>
     </div >
   );
 };
