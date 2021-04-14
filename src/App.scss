@@ -85,7 +85,6 @@ body {
     .icon-div {
       .icon {
         color: #02394a;
-        border-bottom: 3px solid #02394a;
         border-radius: 2px;
         &:hover {
           background: #02394a;
@@ -128,6 +127,15 @@ body {
     top: 200px;
     right: -20px;
     position: fixed;
+  }
+  .lightApp {
+    .container {
+      .works {
+        .item {
+          border-bottom: 1px solid #02232d;
+        }
+      }
+    }
   }
 }
 
