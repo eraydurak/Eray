@@ -6,12 +6,22 @@ const Nav = () => {
     <div className="navbar">
       <ul>
         <li>
-          <a className="contact" href="#contact">
-            Contact
-          </a>
+          <div className="link-wrapper">
+            <span className="inner-wrapper wrapper-15">
+              <a className="nav-link link hover-15" href="#contact">
+                Contact
+              </a>
+            </span>
+          </div>
         </li>
         <li>
-          <a href="#works">Projects</a>
+          <div className="link-wrapper">
+            <span className="inner-wrapper wrapper-15">
+              <a className="nav-link link hover-15" href="#works">
+                Projects
+              </a>
+            </span>
+          </div>
         </li>
       </ul>
     </div>
