@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Nav.scss";
 
-const Nav = () => {
+const Nav = ({ contactVisibleHandler }) => {
   return (
     <div className="navbar">
       <ul>
         <li>
           <div className="link-wrapper">
             <span className="inner-wrapper wrapper-15">
-              <a className="nav-link link hover-15" href="#contact">
+              <a onClick={contactVisibleHandler} className="contact-link nav-link link hover-15" href="#">
                 Contact
               </a>
             </span>
@@ -24,7 +24,7 @@ const Nav = () => {
           </div>
         </li>
       </ul>
-    </div>
+    </div >
   );
 };
 

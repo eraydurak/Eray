@@ -85,7 +85,8 @@
             transition: transform 0.3s;
           }
         }
-        &:hover {
+        &:hover,
+        &:focus {
           &:before,
           &:after {
             transform: scaleY(1);
@@ -98,6 +99,11 @@
           }
         }
       }
+    }
+  }
+  .contact-link {
+    &:hover + .contact-container {
+      display: block;
     }
   }
 }
