@@ -9,15 +9,24 @@ import { FaMoon } from "react-icons/fa";
 
 const App = () => {
   const [isActive, setActive] = useState('false');
+  const [contactVisible, setcontactVisible] = useState(false);
   const handleToggle = () => {
     setActive(!isActive);
     localStorage.setItem(isActive, 'theme selection')
   }
+
+  const toggleContactVisiblity = () => {
+    setcontactVisible(!contactVisible);
+  }
+
   return (
     <div className={isActive ? "App" : "lightApp"}>
-      < Nav />
+      <Nav contactVisibleHandler={toggleContactVisiblity} />
       <MainContent />
-      <Contact />
+      {
+        contactVisible ? <Contact /> : ''
+      }
+
       <a className="go-page-start" href="#">
         <FaArrowAltCircleUp className="go-start-icon" />
       </a>
