@@ -19,7 +19,6 @@ body {
   }
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-  position: relative;
 }
 
 .go-page-start {
@@ -61,7 +60,9 @@ body {
 .lightApp {
   background-color: aliceblue;
   color: black;
+  position: relative;
   .container {
+    margin-bottom: 0 !important;
     .imgBox {
       .myPic {
         transition: 0.3s all ease;
@@ -192,10 +193,16 @@ body {
       }
     }
   }
-  .contact-container {
-    h3 {
-      color: black;
-    }
+  .contact-container-active {
+    // width: 90%;
+    // height: auto;
+    background-color: #02232d;
+    // display: flex;
+    // // padding: 40px 25px;
+    // // grid-template-columns: 1fr;
+    // // grid-template-rows: 0;
+    align-items: center;
+    justify-content: center;
   }
   .go-page-start {
     color: black;
@@ -220,7 +227,7 @@ body {
 @media (min-width: 320px) and (max-width: 767px) {
   .toggleBtn {
     // transform: rotate(90deg);
-    top: 200px;
+    top: 90px;
     right: 5px;
     position: fixed;
   }
@@ -238,7 +245,7 @@ body {
 @media (min-width: 768px) and (max-width: 1440px) {
   .toggleBtn {
     // transform: rotate(90deg);
-    top: 200px;
+    top: 20px;
     right: 10px;
     position: fixed;
   }
