@@ -9,7 +9,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 0;
   padding: 20px 25px;
   padding-left: 50px;
   .imgBox {
@@ -30,20 +30,19 @@
     .headText {
       color: white;
       line-height: 25px;
-
+      word-wrap: break-word;
+      word-break: keep-all;
       span {
         font-weight: bold;
       }
     }
   }
   .icon-div {
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 15px 0;
-
-    // max-width: 90%;
     .icon {
       font-size: 60px;
       color: white;
@@ -51,9 +50,7 @@
       padding: 5px;
       transition: 0.3s all ease-in-out;
       &:hover {
-        // background: white;
         box-shadow: 0px 0px 8px #fff;
-        // color: #02394a;
         border-radius: 5px;
         transition: 0.4s all ease-in-out;
       }
@@ -110,7 +107,6 @@
           a {
             color: rgb(3, 226, 255);
             padding: 5px;
-            // transition: 0.3s all ease-in-out;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -119,8 +115,6 @@
               margin-left: 10px;
             }
             &:hover {
-              //border-bottom: 1px solid white;
-              //transition: 0.3s all ease-in-out;
               transform: skew(-10deg);
             }
           }
@@ -135,10 +129,10 @@
     margin-top: 20px;
     margin-bottom: 10px;
     .icon-div {
-      margin-top: 20px;
+      margin-top: 10px;
       min-width: 100%;
       .icon {
-        font-size: 45px;
+        font-size: 50px;
       }
     }
     .wrapper {
