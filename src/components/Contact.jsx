@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Contact.scss";
 import { GrTwitter } from "react-icons/gr";
 import { VscGithub } from "react-icons/vsc";
@@ -7,8 +7,7 @@ import { FaMailBulk } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div id="contact" className="contact-container">
-      <h3>Contact Me</h3>
+    <div id="contact" className="contact-container-active">
       <div className="contact-list">
         <a
           target="_blank"
