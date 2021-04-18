@@ -34,7 +34,7 @@ const MainContent = ({ isActive }) => {
         <img className="myPic" src={me} alt="alt" />
       </div>
       <div className="contact-div">
-        <a href="#">
+        <a target="_blank" href="https://github.com/eraydurak">
           <svg
             className="contact-icon"
             viewBox="0 0 512 512"
@@ -48,7 +48,7 @@ const MainContent = ({ isActive }) => {
             />
           </svg>
         </a>
-        <a href="https://twitter.com/eraydurakk">
+        <a target="_blank" href="https://twitter.com/eraydurakk">
           <svg
             height="25px"
             viewBox="0 -46 512.00005 512"
@@ -61,7 +61,7 @@ const MainContent = ({ isActive }) => {
             />
           </svg>
         </a>
-        <a href="mailto: eraydurak1@outlook.com">
+        <a target="_blank" href="mailto: eraydurak1@outlook.com">
           <svg
             version="1.1"
             id="Capa_1"
@@ -113,7 +113,7 @@ const MainContent = ({ isActive }) => {
             <g></g>
           </svg>
         </a>
-        <a href="https://www.linkedin.com/in/eraydurak/">
+        <a target="_blank" href="https://www.linkedin.com/in/eraydurak/">
           <svg
             height="25px"
             viewBox="0 0 512 512"
