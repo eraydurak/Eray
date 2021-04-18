@@ -26,7 +26,6 @@ const App = () => {
       {
         contactVisible ? <Contact /> : ''
       }
-
       <a className="go-page-start" href="#">
         <FaArrowAltCircleUp className="go-start-icon" />
       </a>
