@@ -8,6 +8,7 @@
   height: 70px;
   ul {
     @include centered();
+    flex-direction: row-reverse;
     height: 100%;
     li {
       text-decoration: none;
