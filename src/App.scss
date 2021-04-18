@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500&display=swap");
+$background-color: #02232d;
+$text-color: aliceblue;
+$transition: 0.3s all ease-in-out;
 * {
   margin: 0;
   padding: 0;
@@ -66,6 +69,28 @@ body {
     .imgBox {
       .myPic {
         transition: 0.3s all ease;
+      }
+    }
+    .contact-div {
+      a {
+        padding: 6px;
+        border-radius: 20%;
+        position: relative;
+        transition: $transition;
+        -webkit-box-shadow: 0px 0px 3px 2px $background-color;
+        -moz-box-shadow: 0px 0px 3px 2px $background-color;
+        box-shadow: 0px 0px 3px 2px $background-color;
+        path {
+          fill: $background-color;
+        }
+        &:hover {
+          background-color: $background-color;
+          transition: $transition;
+        }
+        &:hover path {
+          fill: $text-color;
+          transition: $transition;
+        }
       }
     }
     .headingThree {
