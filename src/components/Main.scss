@@ -23,6 +23,7 @@ $transition: 0.3s all ease-in-out;
     padding: 5px 0;
     margin-bottom: 30px;
     .myPic {
+      border: 7px solid $text-color;
       border-radius: 50%;
       width: 220px;
       height: 220px;

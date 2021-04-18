@@ -69,6 +69,7 @@ body {
     .imgBox {
       .myPic {
         transition: 0.3s all ease;
+        border: 7px solid $background-color;
       }
     }
     .contact-div {
