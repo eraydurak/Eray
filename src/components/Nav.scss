@@ -102,9 +102,19 @@
     }
   }
   .contact-link {
+    visibility: hidden;
     &:hover + .contact-container {
       display: block;
     }
+  }
+  .link-wrapper-contact {
+    visibility: hidden;
+  }
+  .inner-wrapper-contact {
+    visibility: hidden;
+  }
+  .wrapper-15-contact {
+    visibility: hidden;
   }
 }
 
