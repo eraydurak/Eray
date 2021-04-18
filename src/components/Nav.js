@@ -6,8 +6,8 @@ const Nav = ({ contactVisibleHandler }) => {
     <div className="navbar">
       <ul>
         <li>
-          <div className="link-wrapper">
-            <span className="inner-wrapper wrapper-15">
+          <div className="link-wrapper link-wrapper-contact">
+            <span className="inner-wrapper wrapper-15 inner-wrapper-contact wrapper-15-contact ">
               <a onClick={contactVisibleHandler} className="contact-link nav-link link hover-15" href="#">
                 Contact
               </a>
