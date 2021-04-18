@@ -47,17 +47,17 @@ $transition: 0.3s all ease-in-out;
       border-radius: 20%;
       position: relative;
       transition: $transition;
-      -webkit-box-shadow: 0px 0px 1px 2px $text-color;
-      -moz-box-shadow: 0px 0px 1px 2px $text-color;
-      box-shadow: 0px 0px 1px 2px $text-color;
+      // -webkit-box-shadow: 0px 0px 0 1px $text-color;
+      // -moz-box-shadow: 0px 0px 0 1px $text-color;
+      box-shadow: 0px 0px 3px 0px $text-color;
       &:hover {
         background-color: $text-color;
-        transition: $transition;
+        transition: background-color $transition;
         animation: deneme 1s ease 0s 1 normal forwards;
       }
       &:hover path {
         fill: $background-color;
-        transition: $transition;
+        transition: fill $transition;
       }
     }
   }
