@@ -26,6 +26,7 @@ import me from "./../img/MyPicture.png";
 import triwow from "./../img/triwow.png";
 // import mail from "./../img/mail.svg";
 // import mail from "./Icons.jsx";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const MainContent = ({ isActive }) => {
   return (
@@ -167,22 +168,26 @@ const MainContent = ({ isActive }) => {
         <h3 className="headingThree">My Works</h3>
         <div className="wrapper">
           <div className="item">
-            <img
-              style={{ width: "150px", height: "150px" }}
-              src={triwow}
-              alt="triwow"
-            />
+            <ScrollAnimation animateIn="bounceInLeft">
+              <img
+                style={{ width: "150px", height: "150px" }}
+                src={triwow}
+                alt="triwow"
+              />
+            </ScrollAnimation>
             <div className="itemPara">
               <h2>Triwow {""}</h2>
               <br />
-              <p className="lightModPara">
-                Built a quiz game with ReactJs. Inspired by Trivia Crack mobile
-                game and tried to adapt it to web browsers. Used
-                https://opentdb.com/api_category.php for question APIs. We used
-                many technologies in this project such as JavaScript, React,
-                Redux, SASS, React-router-dom, Firebase(Firestore). We will
-                create a database for questions/answers in the future.
-              </p>
+              <ScrollAnimation animateIn="fadeIn">
+                <p className="lightModPara">
+                  Built a quiz game with ReactJs. Inspired by Trivia Crack
+                  mobile game and tried to adapt it to web browsers. Used
+                  https://opentdb.com/api_category.php for question APIs. We
+                  used many technologies in this project such as JavaScript,
+                  React, Redux, SASS, React-router-dom, Firebase(Firestore). We
+                  will create a database for questions/answers in the future.
+                </p>
+              </ScrollAnimation>
             </div>
             <ul>
               <li>
@@ -196,23 +201,27 @@ const MainContent = ({ isActive }) => {
             </ul>
           </div>
           <div className="item">
-            <img
-              style={{ width: "150px", height: "150px" }}
-              src={weatherapp}
-              alt="memory-card-game"
-            />
+            <ScrollAnimation animateIn="bounceInLeft">
+              <img
+                style={{ width: "150px", height: "150px" }}
+                src={weatherapp}
+                alt="memory-card-game"
+              />
+            </ScrollAnimation>
             <div className="itemPara">
               <h2 className="lightModPara">
                 3-Day WeatherCast App with React {""}
                 <WiCloudy />
               </h2>
               <br />
-              <p className="lightModPara">
-                The project will show you 3-days weathercast. There is a input
-                area that you can search for your city. Used axios to get
-                weather apis. <br />
-                Techs in this project : React, SASS, JavaScript, Fetch API
-              </p>
+              <ScrollAnimation animateIn="fadeIn">
+                <p className="lightModPara">
+                  The project will show you 3-days weathercast. There is a input
+                  area that you can search for your city. Used axios to get
+                  weather apis. <br />
+                  Techs in this project : React, SASS, JavaScript, Fetch API
+                </p>
+              </ScrollAnimation>
             </div>
             <ul>
               <li>
@@ -227,24 +236,28 @@ const MainContent = ({ isActive }) => {
             </ul>
           </div>
           <div className="item">
-            <img
-              style={{ width: "150px", height: "150px" }}
-              src={memorycard}
-              alt="memory-card-game"
-            />
+            <ScrollAnimation animateIn="bounceInLeft">
+              <img
+                style={{ width: "150px", height: "150px" }}
+                src={memorycard}
+                alt="memory-card-game"
+              />
+            </ScrollAnimation>
             <div className="itemPara">
               <h2 className="lightModPara">
                 Memory Card Game with React.Js {""}
                 <GiCardPickup />
               </h2>
               <br />
-              <p className="lightModPara">
-                {" "}
-                It is a memory card game. Choose 2 cards if they match then they
-                stay open. Otherwise they return back to their first states
-                which is close. <br />
-                Techs in this project: React, JavaScript, SASS
-              </p>
+              <ScrollAnimation animateIn="fadeIn">
+                <p className="lightModPara">
+                  {" "}
+                  It is a memory card game. Choose 2 cards if they match then
+                  they stay open. Otherwise they return back to their first
+                  states which is close. <br />
+                  Techs in this project: React, JavaScript, SASS
+                </p>
+              </ScrollAnimation>
             </div>
             <ul>
               <li>
@@ -264,22 +277,27 @@ const MainContent = ({ isActive }) => {
             </ul>
           </div>
           <div className="item">
-            <img
-              style={{ width: "150px", height: "150px" }}
-              src={quotegen}
-              alt="quotegenerator"
-            />
+            <ScrollAnimation animateIn="bounceInLeft">
+              <img
+                style={{ width: "150px", height: "150px" }}
+                src={quotegen}
+                alt="quotegenerator"
+              />
+            </ScrollAnimation>
             <div className="itemPara">
               <h2 className="lightModPara">
                 Kanye West Quote Generator {""}
                 <GiWesternHat />
               </h2>
               <br />
-              <p className="lightModPara">
-                This is my first try for fetching some API from certain
-                websites. <br />
-                It has HTML, CSS, Vanilla JavaScript in it. Not responsive yet.
-              </p>
+              <ScrollAnimation animateIn="fadeIn">
+                <p className="lightModPara">
+                  This is my first try for fetching some API from certain
+                  websites. <br />
+                  It has HTML, CSS, Vanilla JavaScript in it. Not responsive
+                  yet.
+                </p>
+              </ScrollAnimation>
             </div>
             <ul>
               <li>
@@ -299,22 +317,26 @@ const MainContent = ({ isActive }) => {
             </ul>
           </div>
           <div className="item">
-            <img
-              style={{ width: "150px", height: "150px" }}
-              src={calculator}
-              alt="calculator"
-            />
+            <ScrollAnimation animateIn="bounceInLeft">
+              <img
+                style={{ width: "150px", height: "150px" }}
+                src={calculator}
+                alt="calculator"
+              />
+            </ScrollAnimation>
             <div className="itemPara">
               <h2 className="lightModPara">
                 Calculator with ReactJS {""}
                 <AiFillCalculator />
               </h2>
               <br />
-              <p className="lightModPara">
-                Simple calculator created with ReactJS. I did not use ant other
-                library like math.js. All the functions and operations written
-                by me. I used SASS and JavaScript mostly.
-              </p>
+              <ScrollAnimation offset={8} animateIn="fadeIn">
+                <p className="lightModPara">
+                  Simple calculator created with ReactJS. I did not use ant
+                  other library like math.js. All the functions and operations
+                  written by me. I used SASS and JavaScript mostly.
+                </p>
+              </ScrollAnimation>
             </div>
             <ul>
               <li>
