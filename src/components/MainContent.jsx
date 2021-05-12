@@ -24,8 +24,6 @@ import quotegen from "./../img/quotegen.png";
 import weatherapp from "./../img/weatherapp.png";
 import me from "./../img/MyPicture.png";
 import triwow from "./../img/triwow.png";
-// import mail from "./../img/mail.svg";
-// import mail from "./Icons.jsx";
 import ScrollAnimation from "react-animate-on-scroll";
 
 const MainContent = ({ isActive }) => {
@@ -151,7 +149,7 @@ const MainContent = ({ isActive }) => {
         </p>
         <p className="headText">
           <br />
-          <span>Specializing following areas :</span>
+          <span>My areas of expertise :</span>
           <br />
           <br />
           • Functional and OO Programming in JavaScript
@@ -193,7 +191,7 @@ const MainContent = ({ isActive }) => {
         </ScrollAnimation>
       </div>
       <div id="works" className="works">
-        <h3 className="headingThree">My Works</h3>
+        <h3 className="headingThree">My Projects</h3>
         <div className="wrapper">
           <div className="item">
             <ScrollAnimation animateIn="bounceInLeft" animateOnce={true}>
@@ -208,8 +206,7 @@ const MainContent = ({ isActive }) => {
               <br />
               <ScrollAnimation animateIn="fadeIn">
                 <p className="lightModPara">
-                  Built a quiz game with ReactJs. Inspired by Trivia Crack
-                  mobile game and tried to adapt it to web browsers. Used
+                  Built a quiz game with ReactJs. Drew inspiration from Trivia Crack mobile game and tried to adapt it to web browsers. Used
                   https://opentdb.com/api_category.php for question APIs. We
                   used many technologies in this project such as JavaScript,
                   React, Redux, SASS, React-router-dom, Firebase(Firestore). We
@@ -282,7 +279,7 @@ const MainContent = ({ isActive }) => {
                   {" "}
                   It is a memory card game. Choose 2 cards if they match then
                   they stay open. Otherwise they return back to their first
-                  states which is close. <br />
+                  states which is face down. <br />
                   Techs in this project: React, JavaScript, SASS
                 </p>
               </ScrollAnimation>
@@ -320,7 +317,7 @@ const MainContent = ({ isActive }) => {
               <br />
               <ScrollAnimation animateIn="fadeIn">
                 <p className="lightModPara">
-                  This is my first try for fetching some API from certain
+                This is my first try at fetching some API from certain
                   websites. <br />
                   It has HTML, CSS, Vanilla JavaScript in it. Not responsive
                   yet.
@@ -360,9 +357,8 @@ const MainContent = ({ isActive }) => {
               <br />
               <ScrollAnimation offset={8} animateIn="fadeIn">
                 <p className="lightModPara">
-                  Simple calculator created with ReactJS. I did not use ant
-                  other library like math.js. All the functions and operations
-                  written by me. I used SASS and JavaScript mostly.
+                  Simple calculator created with ReactJS. I did not use any
+                  other library like math.js. All the functions and operations were written by me. I used SASS and JavaScript mostly.
                 </p>
               </ScrollAnimation>
             </div>
