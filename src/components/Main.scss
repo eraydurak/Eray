@@ -6,6 +6,7 @@
 $background-color: #02232d;
 $text-color: aliceblue;
 $transition: 0.3s all ease-in-out;
+
 .container {
   width: 80vw;
   height: auto;
@@ -103,7 +104,6 @@ $transition: 0.3s all ease-in-out;
     padding: 5px;
     padding-bottom: 16px;
     width: 300px;
-    border: 1 px solid white;
   }
   .wrapper {
     display: flex;
